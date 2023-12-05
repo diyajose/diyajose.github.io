@@ -309,8 +309,12 @@ img {
         --section-margin-bottom: 2.5rem;
     }
 
+    .nav {
+        display: none;
+    }
     .hero {
         flex-direction: column;
+
     }
 
     .about {
