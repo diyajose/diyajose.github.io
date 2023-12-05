@@ -49,6 +49,7 @@ img {
     font-size: 1.5rem;
     font-weight: 700;
 }
+
 .nav img {
     height: 5rem;
     width: auto;
@@ -71,7 +72,7 @@ img {
 
 .hero button {
     background-color: var(--primary-color);
-    color: #FFF; 
+    color: #FFF;
     border: none;
     border-radius: 0.5rem;
     height: 3rem;
@@ -220,12 +221,14 @@ img {
     justify-content: center;
     gap: 3rem;
 }
+
 .my-works .items a:link {
     width: calc(30% - 0.5rem);
     height: 250px;
 }
 
-.items img:hover, .item-mob img:hover {
+.items img:hover,
+.item-mob img:hover {
     transform: scale(1.1);
     transition: transform 1s;
 }
@@ -248,12 +251,14 @@ img {
     gap: 5rem;
     transition: transform 1s;
 }
+
 .my-works .item-mob img {
     height: 350px;
     width: 200px;
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
+
 .contact {
     display: flex;
     flex-direction: column;
@@ -265,11 +270,13 @@ img {
     margin: 2rem 0;
     padding-top: 2rem;
 }
+
 .contact .icons {
     display: flex;
     gap: 1rem;
     padding-bottom: 30px;
 }
+
 .contact .icons i {
     color: var(--primary-color);
     font-size: 38px;
@@ -278,15 +285,18 @@ img {
     border-radius: 100%;
 
 }
+
 .contact img {
     padding-bottom: 20px;
     height: 200px;
     width: auto;
 }
+
 .contact p {
     font-size: 18px;
     font-weight: 700;
 }
+
 .contact p span {
     font-size: 20px;
 }
@@ -310,6 +320,7 @@ img {
     .m-only {
         display: unset;
     }
+
     .mob-pic {
         margin-bottom: 1.7rem;
     }
@@ -337,13 +348,16 @@ img {
     .about {
         flex-direction: column;
     }
+
     .my-story .section-title {
         text-align: center;
     }
+
     .my-story p {
         padding-right: 0;
     }
-    .my-works .items{
+
+    .my-works .items {
         flex-direction: column;
     }
 
