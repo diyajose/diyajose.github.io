@@ -309,9 +309,9 @@ img {
         --section-margin-bottom: 2.5rem;
     }
 
-    .nav {
+    /* .nav {
         display: none;
-    }
+    } */
     .hero {
         flex-direction: column;
 
