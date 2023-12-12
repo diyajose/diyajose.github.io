@@ -195,7 +195,7 @@ img {
 .stacks {
     display: flex;
     gap: 1rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: flex-start;
     margin: 4rem 0;
@@ -301,7 +301,7 @@ img {
     font-size: 20px;
 }
 
-@media (max-width: 620px) {
+@media (max-width:1140px) and (min-width: 620px) {
     :root {
         --bio-title-size: 3rem;
         --bio-sub-title-size: 2.5rem;
@@ -311,15 +311,96 @@ img {
 
     .nav {
         display: none;
+        padding-bottom: 10px;
     }
+
     .hero {
         flex-direction: column;
-        padding-top: 50px;
+        padding-top: 40px;
         height: 100vh;
     }
+
     .hero h1 {
         margin-bottom: 3rem;
     }
+
+    .about {
+        margin-left: auto;
+    }
+
+    .m-only {
+        display: unset;
+    }
+
+
+    .mob-pic {
+        margin-bottom: 1.7rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+    }
+
+    .d-only {
+        display: none;
+    }
+
+    .intro {
+        width: 100%;
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .avatar {
+        order: -1;
+        max-height: 80vh;
+    }
+
+
+    .avatar .auora {
+        --scale: 1;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .my-story .section-title {
+        text-align: center;
+    }
+
+    .my-story p {
+        padding: 0 3rem;
+    }
+
+    .my-works .items a:link {
+        width: 45%;
+    }
+}
+
+@media (max-width: 619px) {
+    :root {
+        --bio-title-size: 3rem;
+        --bio-sub-title-size: 2.5rem;
+        --section-padding: 1rem;
+        --section-margin-bottom: 2.5rem;
+    }
+
+    .nav {
+        display: none;
+        padding-bottom: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding-top: 40px;
+        height: 100vh;
+    }
+
+    .hero h1 {
+        margin-bottom: 3rem;
+    }
+
     .about {
         margin-left: auto;
     }
