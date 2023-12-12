@@ -301,7 +301,7 @@ img {
     font-size: 20px;
 }
 
-@media (max-width:1000px) and (min-width: 620px) {
+@media (max-width:900px) and (min-width: 620px) {
     :root {
         --bio-title-size: 3rem;
         --bio-sub-title-size: 2.5rem;
