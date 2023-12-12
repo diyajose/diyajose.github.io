@@ -309,14 +309,17 @@ img {
         --section-margin-bottom: 2.5rem;
     }
 
-    /* .nav {
+    .nav {
         display: none;
-    } */
+    }
     .hero {
         flex-direction: column;
-
+        padding-top: 50px;
+        height: 100vh;
     }
-
+    .hero h1 {
+        margin-bottom: 3rem;
+    }
     .about {
         margin-left: auto;
     }
